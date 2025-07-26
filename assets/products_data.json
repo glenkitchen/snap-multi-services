@@ -1,0 +1,102 @@
+[
+  {
+    "Category":"Tyre Inflator",
+    "Item":"PCL MK4 Tyre Inflator - New",
+    "Price (ZAR)":1880
+  },
+  {
+    "Category":"Tyre Inflator",
+    "Item":"PCL MK4 Tyre Inflator - Recon",
+    "Price (ZAR)":350
+  },
+  {
+    "Category":"Hose Couplers & Connectors",
+    "Item":"Coupler",
+    "Price (ZAR)":160
+  },
+  {
+    "Category":"Hose Couplers & Connectors",
+    "Item":"Connect",
+    "Price (ZAR)":65
+  },
+  {
+    "Category":"Electronic Air Gauges",
+    "Item":"Qube",
+    "Price (ZAR)":10200
+  },
+  {
+    "Category":"Electronic Air Gauges",
+    "Item":"Hand",
+    "Price (ZAR)":2280
+  },
+  {
+    "Category":"Hose Reels",
+    "Item":"Piusi (L)",
+    "Price (ZAR)":4380
+  },
+  {
+    "Category":"Hose Reels",
+    "Item":"Helix (R)",
+    "Price (ZAR)":"NLA"
+  },
+  {
+    "Category":"Hose Reels",
+    "Item":"Raasm (B)",
+    "Price (ZAR)":5390
+  },
+  {
+    "Category":"Tools",
+    "Item":"Unknown tool (R280 tag)",
+    "Price (ZAR)":280
+  },
+  {
+    "Category":"Tools",
+    "Item":"Unknown tool (R75 tag)",
+    "Price (ZAR)":75
+  },
+  {
+    "Category":"Tools",
+    "Item":"Unknown tool (R190 tag)",
+    "Price (ZAR)":190
+  },
+  {
+    "Category":"Tools",
+    "Item":"Unknown tool (R390 tag)",
+    "Price (ZAR)":390
+  },
+  {
+    "Category":"Tyre Inflator",
+    "Item":"R290 Inflator Tool",
+    "Price (ZAR)":290
+  },
+  {
+    "Category":"Rubber Hose",
+    "Item":"Rubber Hose (per meter)",
+    "Price (ZAR)":50
+  },
+  {
+    "Category":"Service",
+    "Item":"Compressor Yearly Service & 3-Yearly Vessel Test",
+    "Price (ZAR)":1280
+  },
+  {
+    "Category":"Service",
+    "Item":"Generator Services & Maintenance",
+    "Price (ZAR)":"POA"
+  },
+  {
+    "Category":"Reel Repairs",
+    "Item":"Ratchet",
+    "Price (ZAR)":380
+  },
+  {
+    "Category":"Reel Repairs",
+    "Item":"Roller",
+    "Price (ZAR)":195
+  },
+  {
+    "Category":"Reel Repairs",
+    "Item":"Spring",
+    "Price (ZAR)":580
+  }
+]
