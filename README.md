@@ -1,6 +1,6 @@
 # Project
 
-The main purpose of this project is to convert the static html `assets/UI.html` into a next.js project.
+The main purpose of this project is to convert the static html `assets/UI.html` into code.
 Abstract components where you can. Create them in the `src\components` folder.
 
 ## Tech
