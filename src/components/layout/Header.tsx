@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { QuoteButton } from "@/components/ui/WhatsAppButton";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -61,9 +62,11 @@ export default function Header() {
               <p className="text-gray-600">Paul van Rooyen: 084 323 4595</p>
               <p className="text-gray-600">Jason van Rooyen: 082 839 6910</p>
             </div>
-            <button className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-green-600 transition-colors">
-              Get Quote
-            </button>
+            <QuoteButton 
+              service="General Services"
+              size="md"
+              className="px-6 py-2"
+            />
 
             {/* Mobile menu button */}
             <button

@@ -43,6 +43,7 @@ export default function EquipmentSection() {
             items={airEquipmentItems}
             buttonText="View Air Equipment"
             gradient="blue"
+            equipmentType="air"
           />
 
           <EquipmentCard
@@ -52,6 +53,7 @@ export default function EquipmentSection() {
             items={compressorItems}
             buttonText="Schedule Service"
             gradient="green"
+            equipmentType="compressor"
           />
 
           <EquipmentCard
@@ -59,8 +61,9 @@ export default function EquipmentSection() {
             imageSrc="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80"
             imageAlt="Generator"
             items={generatorItems}
-            buttonText="Request Generator Service"
+            buttonText="Get Quote"
             gradient="yellow"
+            equipmentType="generator"
           />
         </div>
       </div>

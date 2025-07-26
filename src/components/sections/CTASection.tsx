@@ -1,3 +1,5 @@
+import { QuoteButton, ServiceButton } from "@/components/ui/WhatsAppButton";
+
 export default function CTASection() {
   return (
     <section className="bg-background py-20">
@@ -39,12 +41,16 @@ export default function CTASection() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold hover:bg-primary/90 transition-all transform hover:scale-105 shadow-lg">
-              Request Free Quote
-            </button>
-            <button className="border-2 border-border text-foreground px-8 py-4 rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all">
-              Schedule Service
-            </button>
+            <QuoteButton 
+              service="Free Quote Request"
+              variant="primary"
+              size="lg"
+            />
+            <ServiceButton 
+              service="Service Scheduling"
+              variant="outline"
+              size="lg"
+            />
           </div>
 
           <div className="mt-8 flex justify-center space-x-8">

@@ -1,6 +1,8 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
+import { ServiceButton } from "@/components/ui/WhatsAppButton";
 
 export default function HeroSection() {
   return (
@@ -39,12 +41,17 @@ export default function HeroSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold hover:bg-primary/90 transition-all transform hover:scale-105 shadow-lg">
-                Request Service
-              </button>
-              <button className="border-2 border-border text-foreground px-8 py-4 rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all">
+              <ServiceButton 
+                service="Equipment Service Request"
+                variant="primary"
+                size="lg"
+              />
+              <Link 
+                href="/#equipment"
+                className="border-2 border-border text-foreground px-8 py-4 rounded-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-all text-center"
+              >
                 View Equipment
-              </button>
+              </Link>
             </div>
           </div>
 

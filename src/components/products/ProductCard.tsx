@@ -1,5 +1,6 @@
 import { formatPrice } from "@/data/products";
 import type { ProductWithId } from "@/lib/types";
+import { ProductButton } from "@/components/ui/WhatsAppButton";
 
 interface ProductCardProps {
   product: ProductWithId;
@@ -23,9 +24,14 @@ export default function ProductCard({ product }: ProductCardProps) {
           {formatPrice(product["Price (ZAR)"])}
         </span>
 
-        <button className="bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium">
-          Get Quote
-        </button>
+        <ProductButton
+          product={product.Item}
+          category={product.Category}
+          price={product["Price (ZAR)"]}
+          variant="primary"
+          size="sm"
+          className="px-4 py-2 text-sm"
+        />
       </div>
     </div>
   );

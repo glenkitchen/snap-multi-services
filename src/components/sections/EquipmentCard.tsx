@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import WhatsAppButton from '@/components/ui/WhatsAppButton';
+import { createEquipmentMessage } from '@/data/whatsappTemplates';
 
 interface EquipmentCardProps {
   title: string;
@@ -7,6 +9,7 @@ interface EquipmentCardProps {
   items: string[];
   buttonText: string;
   gradient: 'blue' | 'green' | 'yellow';
+  equipmentType: 'air' | 'compressor' | 'generator';
 }
 
 const gradientClasses = {
@@ -21,7 +24,8 @@ export default function EquipmentCard({
   imageAlt, 
   items, 
   buttonText, 
-  gradient 
+  gradient,
+  equipmentType
 }: EquipmentCardProps) {
   return (
     <div className={`${gradientClasses[gradient]} rounded-2xl p-8 hover:shadow-xl transition-all`}>
@@ -42,9 +46,14 @@ export default function EquipmentCard({
           </li>
         ))}
       </ul>
-      <button className="w-full bg-primary text-white py-3 rounded-lg hover:bg-green-600 transition-colors">
+      <WhatsAppButton
+        messageOptions={createEquipmentMessage(equipmentType)}
+        variant="primary"
+        size="md"
+        className="w-full py-3"
+      >
         {buttonText}
-      </button>
+      </WhatsAppButton>
     </div>
   );
 }
