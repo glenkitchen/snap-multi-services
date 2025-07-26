@@ -14,7 +14,9 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
-              Professional equipment services and maintenance for air compressors, generators, and air-related equipment. Serving customers with quality and reliability since our establishment.
+              Professional equipment services and maintenance for air
+              compressors, generators, and air-related equipment. Serving
+              customers with quality and reliability since our establishment.
             </p>
             <div className="text-sm text-gray-400">
               <p>IGWT - Prices Exclude VAT</p>
@@ -26,27 +28,42 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Services</h4>
             <ul className="space-y-3 text-gray-300">
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Air Compressor Servicing
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Generator Maintenance
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Equipment Repairs
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Emergency Service
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-primary transition-colors">
+                <a
+                  href="#services"
+                  className="hover:text-primary transition-colors"
+                >
                   Routine Inspections
                 </a>
               </li>
@@ -57,23 +74,35 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-6">Contact Info</h4>
             <div className="space-y-4 text-gray-300">
               <div>
-                <p className="font-semibold">Paul (Equipment Specialist)</p>
-                <a href="tel:0843234595" className="hover:text-primary transition-colors">
+                <p className="font-semibold">Paul van Rooyen</p>
+                <a
+                  href="tel:0843234595"
+                  className="hover:text-primary transition-colors"
+                >
                   084 323 4595
                 </a>
               </div>
               <div>
-                <p className="font-semibold">Jason (Service Manager)</p>
-                <a href="tel:0828396910" className="hover:text-primary transition-colors">
+                <p className="font-semibold">Jason van Rooyen</p>
+                <a
+                  href="tel:0828396910"
+                  className="hover:text-primary transition-colors"
+                >
                   082 839 6910
                 </a>
               </div>
               <div className="pt-4 space-y-2">
                 <p className="text-gray-400 text-sm">Email:</p>
-                <a href="mailto:snaprepair@gmail.com" className="block hover:text-primary transition-colors">
+                <a
+                  href="mailto:snaprepair@gmail.com"
+                  className="block hover:text-primary transition-colors"
+                >
                   snaprepair@gmail.com
                 </a>
-                <a href="mailto:it@snap123.co.za" className="block hover:text-primary transition-colors">
+                <a
+                  href="mailto:it@snap123.co.za"
+                  className="block hover:text-primary transition-colors"
+                >
                   it@snap123.co.za
                 </a>
               </div>
@@ -82,7 +111,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2024 Snap-Multi-Services. All rights reserved. The Company You Can Trust.</p>
+          <p>
+            &copy; 2024 Snap-Multi-Services. All rights reserved. The Company
+            You Can Trust.
+          </p>
         </div>
       </div>
     </footer>

@@ -23,13 +23,13 @@ export default function EquipmentSection() {
   ];
 
   return (
-    <section id="equipment" className="py-20 bg-white">
+    <section id="equipment" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">
+          <h2 className="text-4xl font-bold text-foreground mb-4">
             Equipment Categories
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Quality equipment for every need. Discover our range of air-related
             equipment, compressors, and generators.
           </p>
